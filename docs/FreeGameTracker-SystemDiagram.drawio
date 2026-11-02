@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="hE0mpyvWz5ZF63Ue-FID">
+    <mxGraphModel dx="1125" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-5" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;h4&gt;Start Free Game Tracker&lt;/h4&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-7" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Request Current Free Game Giveaways" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-10" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-11" connectable="0" parent="v5NtGwAM7cBOb-iT9CYv-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.3" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-13" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-14" connectable="0" parent="v5NtGwAM7cBOb-iT9CYv-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="API Request Successful?" vertex="1">
+          <mxGeometry height="80" width="130" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-23" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display Error Message" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-16" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Parse API Response into Game Data" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-18" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Filter Steam and Epic Games Giveaways" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-20" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display Game Titles, Platforms, and Expiration Dates" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-22" edge="1" parent="1" source="v5NtGwAM7cBOb-iT9CYv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="v5NtGwAM7cBOb-iT9CYv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display Links to Claim Free Games" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="v5NtGwAM7cBOb-iT9CYv-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="End Free Game Tracker" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
